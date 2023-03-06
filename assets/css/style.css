@@ -17,8 +17,9 @@ section {
     margin-top: 35px;
 }
 
-
-
+i.fa-regular {
+    font-size: 80px;
+}
 
 
 .flex {
@@ -40,6 +41,14 @@ section {
 .flex-colum {
     flex-direction: column;
 }
+
+.gap {
+    gap: 15px;
+}
+
+
+
+
 
 .align-items-center {
     align-items: center;
@@ -64,11 +73,19 @@ button {
 
 
 
-.border-radius-20 {
+div.background-color-skyblue {
     border-radius: 20px;
+    padding: 15px;
 }
 
 
+div.card {
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
@@ -93,9 +110,11 @@ button {
     margin-top: 15px;
 }
 
-.margin-bottom-15px {
+div.background-color-skyblue h2 {
     margin-bottom: 15px;
+    
 }
+
 
 
 
