@@ -20,40 +20,44 @@
   </head>
   <body>
     <!-- logo + hamburger icon -->
-    <header class="flex justify-content-space-between align-items-center">
-      <img src="assets/img/logo.png" alt="" />
-      <i style="color: white" class="fa-solid fa-bars"></i>
+    <header>
+      <div
+        class="flex justify-content-space-between contenitore-logo align-items-center"
+      >
+        <img src="assets/img/logo.png" alt="" />
+        <i style="color: white" class="fa-solid fa-bars"></i>
+      </div>
     </header>
 
     <!-- cards -->
     <section class="section-1">
-      <div class="flex flex-wrap gap">
+      <div
+        class="mediawidth-75 flex flex-wrap gap flex-wrap justify-content-center margin-auto"
+      >
+        <!-- 0card -->
         <div
-          class="flex flex-colum background-color-skyblue border-radius-20 padding-15"
+          class="media-flex-basiss-70 flex flex-wrap card media-flex-no-wrap background-color-skyblue border-radius-20 padding-15"
         >
-          <div class="padding-15">
-            <h2 class="margin-bottom-15px">Geat a demo applicatyion</h2>
-            <p>
-              orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            </p>
+          <div>
+            <div class="padding-15">
+              <h2 class="margin-bottom-15px">Geat a demo applicatyion</h2>
+              <p>
+                orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              </p>
+            </div>
+            <!-- button -->
+            <div class="margin-top-15px">
+              <a href="#"><button>App Store</button></a>
+            </div>
           </div>
-          <!-- button -->
-          <div class="margin-top-15px">
-            <a href="#"><button>App Store</button></a>
-          </div>
-          <div class="marging-auto margin-top-15px position-relative">
-            <img
-              class=""
-              style="width: 250px"
-              src="assets/img/phone.png"
-              alt=""
-            />
+          <div class="margin-auto margin-top-15px">
+            <img style="width: 250px" src="assets/img/phone.png" alt="" />
           </div>
         </div>
 
         <!-- 1-card -->
-        <div class="background-color-skyblue card">
+        <div class="background-color-skyblue card media-flex-basiss-70">
           <div><i class="fa-regular fa-file"></i></div>
           <h2>Clean code</h2>
           <p>
@@ -91,23 +95,13 @@
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
           </p>
         </div>
-
-        <!-- 5card -->
-        <div class="background-color-skyblue card">
-          <div><i class="fa-regular fa-file"></i></div>
-          <h2>Clean code</h2>
-          <p>
-            orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-          </p>
-        </div>
       </div>
     </section>
 
     <!-- card strategic planning -->
     <section class="background-color-violet margin-top-55 padding-bottom-55">
-      <div>
-        <div class="marging-auto width-80">
+      <div class="flex flex-colum contenitore-strategic-planning">
+        <div>
           <img
             class="margin-top-55"
             style="width: 100%"
@@ -120,12 +114,14 @@
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
           </p>
         </div>
-        <div
-          class="marging-auto width-80 background-color-white margin-top-55 border-radius-20"
-        >
-          <img style="width: 100%" src="assets/img/planning2.png" alt="" />
-          <h2>App Developer</h2>
-          <p class="padding-bottom-55">
+        <div class="background-color-white margin-top-55 border-radius-20">
+          <img
+            class="media-font-size-50 width-100"
+            src="assets/img/planning2.png"
+            alt=""
+          />
+          <h2 class="text-align-center">App Developer</h2>
+          <p class="padding-bottom-55 text-align-center">
             orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
           </p>

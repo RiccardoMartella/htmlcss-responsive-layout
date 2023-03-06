@@ -46,25 +46,14 @@ i.fa-regular {
     gap: 15px;
 }
 
-
-
-
-
 .align-items-center {
     align-items: center;
 }
 
-
-
-
 button {
     border-radius: 25px;
-    padding: 10px 45px;
+    padding: 7px 55px;
 }
-
-
-
-
 
 .background-color-skyblue {
     background-color:skyblue ;
@@ -78,12 +67,10 @@ button {
     background-color: white;
 }
 
-
 div.background-color-skyblue {
     border-radius: 20px;
     padding: 15px;
 }
-
 
 div.card {
     border-radius: 20px;
@@ -93,8 +80,6 @@ div.card {
     align-items: center;
 }
 
-
-
 .padding-15 {
     padding: 15px 15px 0 15px;
 }
@@ -103,12 +88,11 @@ div.card {
     padding-bottom: 15px;
 }
 
+.padding-bottom-55 {
+    padding-bottom: 55px;
+}
 
-
-
-
-
-.marging-auto {
+.margin-auto {
     margin: auto;
 }
 
@@ -118,7 +102,6 @@ div.card {
 
 div.background-color-skyblue h2 {
     margin-bottom: 15px;
-    
 }
 
 .margin-top-55 {
@@ -129,28 +112,61 @@ div.background-color-skyblue h2 {
     margin-top: 45px;
 }
 
-.marging-bottom-55 {
+.margin-bottom-55 {
     margin-bottom: 55px;
 }
 
-.padding-bottom-55 {
-    padding-bottom: 55px;
-}
-
-.background-color-white h2,p {
-    margin-top: 10px;
+.text-align-center {
     text-align: center;
 }
-
-
 
 .border-radius-20 {
     border-radius: 20px;
 }
 
+.width-100 {
+    width: 100%;
+}
 
+/* responsive descktop  */
+@media screen and (min-width: 1160px){
+    .card {
+        flex-basis: calc(calc(100% / 3) - 15px);
+    }
 
+    .card:nth-child(1) {
+        flex-basis: calc(calc(100% / 3 * 2) - 15px);
+        flex-direction: row;
+    }
 
-.width-80 {
-    width: 80%;
+     .media-flex-no-wrap {
+        flex-wrap: nowrap;
+     }
+
+     .contenitore-logo {
+        margin: auto;
+        width: 60%;
+     }
+ 
+     .flex {
+        flex-direction: row;
+     }
+     
+     .contenitore-strategic-planning {
+        width: 50%;
+        gap: 40px;
+        margin: auto;
+        align-items: baseline;
+     }
+
+     .contenitore-strategic-planning div:first-of-type img {
+        margin-bottom: 135px;
+     }
+
+     .mediawidth-75 {
+       width: 75%;
+    }
+
+   
+    
 }
