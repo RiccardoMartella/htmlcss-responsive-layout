@@ -24,7 +24,7 @@
       <div
         class="flex justify-content-space-between contenitore-logo align-items-center width-80 margin-auto"
       >
-        <img src="assets/img/logo.png" alt="" />
+        <img class="flex" src="assets/img/logo.png" alt="" />
         <i style="color: white" class="fa-solid fa-bars"></i>
       </div>
     </header>
@@ -36,7 +36,7 @@
       >
         <!-- 0card -->
         <div
-          class="media-flex-basiss-70 flex flex-wrap card media-flex-no-wrap background-color-skyblue border-radius-20 padding-15"
+          class="media-flex-basiss-70 flex flex-wrap card media-flex-no-wrap background-color-skyblue border-radius-20"
         >
           <div>
             <div class="padding-15">
@@ -47,17 +47,19 @@
               </p>
             </div>
             <!-- button -->
-            <div class="margin-top-15px">
+            <div class="margin-top-15px padding-15">
               <a href="#"><button>App Store</button></a>
             </div>
           </div>
-          <div class="margin-auto margin-top-15px">
-            <img style="width: 250px" src="assets/img/phone.png" alt="" />
+          <div class="margin-auto margin-top-15px flex">
+            <img style="width: 230px" src="assets/img/phone.png" alt="" />
           </div>
         </div>
 
         <!-- 1-card -->
-        <div class="background-color-skyblue card media-flex-basiss-70">
+        <div
+          class="background-color-skyblue card media-flex-basiss-70 padding-15"
+        >
           <div><i class="fa-regular fa-file"></i></div>
           <h2>Clean code</h2>
           <p>
@@ -67,7 +69,7 @@
         </div>
 
         <!-- 2card -->
-        <div class="background-color-skyblue card">
+        <div class="background-color-skyblue card padding-15 padding-bottom-15">
           <div><i class="fa-regular fa-file"></i></div>
           <h2>Clean code</h2>
           <p>
@@ -77,7 +79,7 @@
         </div>
 
         <!-- 3card -->
-        <div class="background-color-skyblue card">
+        <div class="background-color-skyblue card padding-15 padding-bottom-15">
           <div><i class="fa-regular fa-file"></i></div>
           <h2>Clean code</h2>
           <p>
@@ -87,7 +89,7 @@
         </div>
 
         <!-- 4card -->
-        <div class="background-color-skyblue card">
+        <div class="background-color-skyblue card padding-15 padding-bottom-15">
           <div><i class="fa-regular fa-file"></i></div>
           <h2>Clean code</h2>
           <p>
@@ -204,8 +206,10 @@
     <section class="background-color-violet margin-top-45">
       <div class="margin-auto width-80 padding-top-bot-45">
         <h2 class="text-align-center">Benefits at working with us</h2>
-        <div class="contenitore-6cards">
-          <div>
+        <div
+          class="contenitore-6cards mediawidth-75 media-margin-auto media-flex media-flex-wrap gap"
+        >
+          <div class="card-6">
             <h2>01</h2>
             <h3>Hight quality</h3>
             <p>
@@ -217,7 +221,7 @@
             </p>
             <a href=""><button class="button margin-top-15px">more</button></a>
           </div>
-          <div>
+          <div class="card-6">
             <h2>01</h2>
             <h3>Hight quality</h3>
             <p>
@@ -229,7 +233,7 @@
             </p>
             <a href=""><button class="button margin-top-15px">more</button></a>
           </div>
-          <div>
+          <div class="card-6">
             <h2>01</h2>
             <h3>Hight quality</h3>
             <p>
@@ -241,7 +245,7 @@
             </p>
             <a href=""><button class="button margin-top-15px">more</button></a>
           </div>
-          <div>
+          <div class="card-6">
             <h2>01</h2>
             <h3>Hight quality</h3>
             <p>
@@ -253,7 +257,7 @@
             </p>
             <a href=""><button class="button margin-top-15px">more</button></a>
           </div>
-          <div>
+          <div class="card-6">
             <h2>01</h2>
             <h3>Hight quality</h3>
             <p>
@@ -265,7 +269,7 @@
             </p>
             <a href=""><button class="button margin-top-15px">more</button></a>
           </div>
-          <div>
+          <div class="card-6">
             <h2>01</h2>
             <h3>Hight quality</h3>
             <p>
@@ -282,30 +286,34 @@
     </section>
 
     <!-- About us descrizione -->
-    <section class="margin-top-55 media-width-60 media-margin-auto">
-      <div class="width-80 margin-auto">
-        <h2>About Us</h2>
-        <p>
-          t dolor. Aenean massa. Cum sociis natoque penatibus etLorem ipsum
-          dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-          <br />
-          eget dolor. Aenean massa. Cum sociis natoque penatibus et amet,
-          consectetuer adipiscing elit. Aenean commodo ligula eget dolor t
-          dolor. Aenean massa. Cum sociis natoque penatibus etLorem ipsum dolor
-          sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-          dolor. Aenean massa. Cum sociis natoque penatibus et amet,<br />
-          consectetuer adipiscing elit. Aenean commodo ligula eget dolor t
-          dolor. Aenean massa. Cum sociis natoque penatibus etLorem ipsum dolor
-          sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-          dolor. Aenean massa. Cum sociis natoque penatibus et amet,
-          consectetuer adipiscing elit. Aenean commodo ligula eget dolor tbr
-          <br />
-          dolor. Aenean massa. Cum sociis natoque penatibus etLorem ipsum dolor
-          sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-          dolor. Aenean massa. Cum sociis natoque penatibus et amet,
-          consectetuer adipiscing elit. Aenean commodo ligula eget dolor
-        </p>
-        <div>
+    <section
+      class="margin-top-55 media-width-60 media-margin-auto mediawidth-75"
+    >
+      <div class="width-80 margin-auto media-margin-auto media-flex">
+        <div class="media-flex media-flex-direction-column">
+          <h2>About Us</h2>
+          <p>
+            t dolor. Aenean massa. Cum sociis natoque penatibus etLorem ipsum
+            dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+            <br />
+            eget dolor. Aenean massa. Cum sociis natoque penatibus et amet,
+            consectetuer adipiscing elit. Aenean commodo ligula eget dolor t
+            dolor. Aenean massa. Cum sociis natoque penatibus etLorem ipsum
+            dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+            eget dolor. Aenean massa. Cum sociis natoque penatibus et amet,<br />
+            consectetuer adipiscing elit. Aenean commodo ligula eget dolor t
+            dolor. Aenean massa. Cum sociis natoque penatibus etLorem ipsum
+            dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+            eget dolor. Aenean massa. Cum sociis natoque penatibus et amet,
+            consectetuer adipiscing elit. Aenean commodo ligula eget dolor tbr
+            <br />
+            dolor. Aenean massa. Cum sociis natoque penatibus etLorem ipsum
+            dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+            eget dolor. Aenean massa. Cum sociis natoque penatibus et amet,
+            consectetuer adipiscing elit. Aenean commodo ligula eget dolor
+          </p>
+        </div>
+        <div class="media-padding-20">
           <div class="card-about-us settings-card"></div>
           <h2>
             I help companies tincidunt tortor aliquam nulla facilis cras
