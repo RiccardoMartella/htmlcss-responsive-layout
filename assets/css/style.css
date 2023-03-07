@@ -199,6 +199,51 @@ div.background-color-skyblue h2 {
 }
 
 
+/* responsive tablet */
+@media screen and (min-width: 768px) {
+    .card {
+        flex-basis: calc(calc(100% / 3) - 15px);
+    }
+
+    .card:nth-child(1) {
+        flex-basis: calc(calc(100% / 3 * 2) - 15px);
+        flex-direction: row;
+    }
+
+    .contenitore-6cards div:nth-child(3){
+        margin-top: 0;
+    }
+
+    .contenitore-6cards div:nth-child(4){
+        margin-top: 0;
+    }
+
+    .contenitore-6cards div:nth-child(5) {
+        margin-top: 0;
+    }
+
+    .contenitore-6cards div:nth-child(6) {
+        margin-top: 0;
+    }
+
+    .card-6 {
+        flex-basis: calc(calc(100% / 2) - 8px);
+    }
+
+    .media-flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .media-flex {
+        display: flex;
+    }
+
+    .media-flex-direction-column {
+        flex-direction: column;
+    }
+     
+}
+
 /* responsive descktop  */
 @media screen and (min-width: 1160px){
     .card {
@@ -255,7 +300,11 @@ div.background-color-skyblue h2 {
     .settings-card {
         padding-right: 200px;
     }
-    
+
+    .contenitore-6cards div:nth-child(3){
+        margin-top: 30px;
+    }
+
     .contenitore-6cards div:nth-child(4){
         margin-top: 0;
     }
@@ -279,8 +328,6 @@ div.background-color-skyblue h2 {
         flex-direction: row;
     }
 
-  
-    
     .media-margin-top-20 {
         margin-top: 20px;
     }
@@ -294,4 +341,3 @@ div.background-color-skyblue h2 {
     }
 }
 
-/* responsive tablet */
