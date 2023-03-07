@@ -21,7 +21,6 @@ i.fa-regular {
     font-size: 80px;
 }
 
-
 .flex {
     display: flex;
 }
@@ -124,6 +123,10 @@ div.background-color-skyblue h2 {
     padding: 25px 0;
 }
 
+.padding-top-bot-45 {
+    padding: 45px 0;
+}
+
 .text-align-center {
     text-align: center;
 }
@@ -141,7 +144,7 @@ div.background-color-skyblue h2 {
 }
 
 /* cards testimonial */
-.settings-card-testimonial {
+.settings-card {
     background-repeat: no-repeat;
     height: 200px;
     width: 200px;
@@ -172,6 +175,14 @@ div.background-color-skyblue h2 {
     border-radius: 20px;
     padding: 10px;
     margin-top: 30px;
+}
+
+/* About us */
+.card-about-us {
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    margin: 0;
+    margin-top: 20px;
 }
 
 
