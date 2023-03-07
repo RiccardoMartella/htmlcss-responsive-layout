@@ -108,12 +108,20 @@ div.background-color-skyblue h2 {
     margin-top: 55px;
 }
 
+.margin-top-45 {
+    margin-top: 45px;
+}
+
 .margin-top-55 h2,p {
     margin-top: 45px;
 }
 
 .margin-bottom-55 {
     margin-bottom: 55px;
+}
+
+.padding-top-bot {
+    padding: 25px 0;
 }
 
 .text-align-center {
@@ -127,6 +135,45 @@ div.background-color-skyblue h2 {
 .width-100 {
     width: 100%;
 }
+
+.width-80 {
+    width: 80%;
+}
+
+/* cards testimonial */
+.settings-card-testimonial {
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    border-radius: 100%;
+    margin: auto;
+    background-position: center;
+}
+
+.card-testimonial-nat {
+    background-image: url(../img/testimonial1.jpg) ;
+    background-size: cover;
+}
+
+.card-testimonial-celia {
+    background-image: url(../img/testimonial2.jpg) ;
+    background-size: cover;
+}
+
+.card-testimonial-bob {
+    background-image: url(../img/testimonial3.jpg) ;
+    background-size: cover;
+}
+
+/* 6cards */
+.contenitore-6cards div {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
 
 /* responsive descktop  */
 @media screen and (min-width: 1160px){
