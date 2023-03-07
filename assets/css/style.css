@@ -37,7 +37,7 @@ i.fa-regular {
     justify-content: center;
 }
 
-.flex-colum {
+.flex-column {
     flex-direction: column;
 }
 
@@ -66,6 +66,11 @@ button {
     background-color: white;
 }
 
+.background-color-black {
+    background-color: rgb(24, 24, 24);
+}
+
+
 div.background-color-skyblue {
     border-radius: 20px;
     padding: 15px;
@@ -75,7 +80,7 @@ div.card {
     border-radius: 20px;
     padding: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: columnn;
     align-items: center;
 }
 
@@ -185,6 +190,16 @@ div.background-color-skyblue h2 {
     margin-top: 20px;
 }
 
+/* footer */
+.contenitore-footer {
+    padding: 50px 0;
+}
+
+.contenitore-footer  p{
+    margin: 0;
+    
+}
+
 
 /* responsive descktop  */
 @media screen and (min-width: 1160px){
@@ -197,34 +212,58 @@ div.background-color-skyblue h2 {
         flex-direction: row;
     }
 
-     .media-flex-no-wrap {
+    .media-flex-no-wrap {
         flex-wrap: nowrap;
-     }
-
-     .contenitore-logo {
+    }
+     
+        
+    .media-flex-direction-row {
+        flex-direction: row;
+    }
+        
+    .contenitore-logo {
         margin: auto;
         width: 60%;
-     }
- 
-     .flex {
-        flex-direction: row;
-     }
-     
-     .contenitore-strategic-planning {
+    }
+        
+    .contenitore-strategic-planning {
         width: 50%;
         gap: 40px;
         margin: auto;
         align-items: baseline;
-     }
-
-     .contenitore-strategic-planning div:first-of-type img {
-        margin-bottom: 135px;
-     }
-
-     .mediawidth-75 {
-       width: 75%;
     }
 
-   
+    .contenitore-strategic-planning div:first-of-type img {
+        margin-bottom: 135px;
+    }
+
+    .mediawidth-75 {
+        width: 75%;
+    }
+
+    .media-contenitore-cards-testimonial {
+        flex-direction: row;
+    }
+
+    .media-cards-testimonial {
+        width: 75%;
+        margin: auto;
+        
+    }
     
+    .settings-card {
+        padding-right: 200px;
+    }
+
+    .media-margin-top-20 {
+        margin-top: 20px;
+    }
+
+    .media-margin-auto {
+        margin: auto;
+    }
+     
+    .media-padding-20 {
+        padding: 20px;
+    }
 }
