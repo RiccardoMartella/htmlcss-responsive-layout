@@ -11,6 +11,10 @@ header {
     padding: 10px 15px ;
 }
 
+.display-none {
+    display: none;
+}
+
 .section-1 {
     width: 80%;
     margin: auto;
@@ -338,6 +342,14 @@ div.background-color-skyblue h2 {
      
     .media-padding-20 {
         padding: 20px;
+    }
+
+    .display-inline {
+        display: inline;
+    }
+
+    .media-display-none {
+        display: none;
     }
 }
 
